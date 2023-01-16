@@ -1,0 +1,28 @@
+.formContent {
+    width: 100%;
+      font-size: 1.4em;
+      font-family: "Source Sans Pro", sans-serif;
+      height: 1.5em;
+      border: 2px solid #939191;
+      border-radius: 5px;
+      margin-bottom: .3em;
+  }
+  
+  .permissionForm {
+    input[type="radio"]{
+    margin: 0 10px 0 -7px;
+    }
+    label{
+      margin-right: 10px;
+    }
+  }
+  
+  .formButton {
+    background: red;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    padding: .6em 1 em;
+    font-size: 1.1em;
+    margin-top: .5em;
+  }
