@@ -1,0 +1,78 @@
+$primary-color: red;
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  max-width: 800px;
+  padding: 5rem 0;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.permissions {
+  list-style: none;
+  padding: 0;
+  margin: 5em 0;
+
+  li {
+    margin-bottom: 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  p {
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.permissionsText {
+  font-size: 34px;
+  line-height: 43px;
+  margin-bottom: .5em;
+}
+
+.permissionsDelete {
+  color: red;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.formContent {
+  width: 100%;
+    font-size: 1.4em;
+    font-family: "Source Sans Pro", sans-serif;
+    height: 1.8em;
+    border: 2px solid #939191;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.formButton {
+  background: red;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  padding: .6em 1 em;
+  font-size: 1.1em;
+}
+
