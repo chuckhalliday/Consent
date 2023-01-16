@@ -1,0 +1,32 @@
+.bio {
+    display: flex;
+    margin-bottom: 50px;
+}
+.bioImage {
+    margin-right: 3em;
+
+    img {
+        width: 16em;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+.bioContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bioContentName {
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 10px;
+    color: red;
+}
+
+.bioContentUsername {
+    font-size: 29px;
+    line-height: 29px;
+    color: #414141;
+}

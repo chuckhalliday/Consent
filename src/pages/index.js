@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Post from '../components/Post'
 import PostForm from '../components/PostForm'
+import Bio from '../components/Bio'
 
 import styles from '../styles/Home.module.scss'
 
@@ -13,31 +14,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Bio 
+          headshot="https://drive.google.com/uc?export=view&id=1DSMBQ3TAKxOXG966zyeGrJaBye-A_qaQ"
+          name="Charles Clark"
+          username="@chuckhalliday"
+        />
         <h1 className={styles.title}>
-          My Desires
+          Update Desires
         </h1>
         <PostForm />
+        <h1 className={styles.title}>
+          Your Permissions
+        </h1>
         <ul className={styles.permissions}>
           <li>
-            <Post content="You can do this!" clear="Delete" />
+            <Post content="9074288072 & 4064045066 can jam any day but Saturday" />
           </li>
           <li>
-            <Post
-              content="This is a listed permission"
-              clear="Delete"
-            />
+            <Post content="2035452457 can get dinner on Saturday" />
           </li>
           <li>
-          <Post
-              content="This is a listed permission"
-              clear="Delete"
-            />
-          </li>
-          <li>
-          <Post
-              content="This is a listed permission"
-              clear="Delete"
-            />
+            <Post content="Anyone except 9712215879 can have a hug any day" />
           </li>
         </ul>
       </main>
