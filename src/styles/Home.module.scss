@@ -24,20 +24,11 @@ $primary-color: red;
 .permissions {
   list-style: none;
   padding: 0;
-  margin: 5em 0;
+  margin: 2em 0;
 
   li {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  p {
-    &:first-child {
-      margin-top: 0;
-    }
     &:last-child {
       margin-bottom: 0;
     }
@@ -45,26 +36,35 @@ $primary-color: red;
 }
 
 .permissionsText {
-  font-size: 34px;
-  line-height: 43px;
-  margin-bottom: .5em;
+  font-size: 26px;
+  line-height: 26px;
+  margin-bottom: -.3em;
 }
 
 .permissionsDelete {
   color: red;
   font-weight: 600;
-  font-size: 26px;
-  line-height: 33px;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .formContent {
   width: 100%;
     font-size: 1.4em;
     font-family: "Source Sans Pro", sans-serif;
-    height: 1.8em;
+    height: 1.5em;
     border: 2px solid #939191;
     border-radius: 5px;
-    margin-bottom: 1em;
+    margin-bottom: .3em;
+}
+
+.permissionForm {
+  input[type="radio"]{
+  margin: 0 10px 0 -7px;
+  }
+  label{
+    margin-right: 10px;
+  }
 }
 
 .formButton {
@@ -74,5 +74,5 @@ $primary-color: red;
   border: 0;
   padding: .6em 1 em;
   font-size: 1.1em;
+  margin-top: .5em;
 }
-
