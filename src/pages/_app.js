@@ -1,5 +1,13 @@
+import { AuthProvider } from '../hooks/useAuth';
+
 import '../styles/globals.scss'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }) {
+  return (
+    <AuthProvider>
+      <Component {...pageProps} />
+    </AuthProvider> 
+  );
 }
+
+export default App
